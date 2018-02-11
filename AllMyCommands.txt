@@ -1,0 +1,39 @@
+1 ) git set up :
+    
+      sudo apt-get update
+      sudo apt-get install git
+
+2 ) configring GitHub
+
+      git config --global user.name "memmas"
+      git config --global user.email "memmas18@gmail.com"
+
+3) Creating a local repository
+
+      git init sprint0indresp
+      cd sprint0indresp
+
+4) add files 
+      
+      get add *
+
+5)remove file and recover
+
+      git rm "Git Branching"
+      git checkout --filename
+
+6) pushing the files to github
+     
+       git remote add origin https://github.com/memmas/SE-sprint0-ind.git
+       git push -u origin master
+
+7) make branch ReadMe and adding the file 
+
+      git checkout -b ReadME
+       git add ReadMe.md
+8) add  AllMyCommands.txt
+
+      git add AllMyCommands.txt
+      git commit
+      git push origin
+
